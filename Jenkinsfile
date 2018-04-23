@@ -1,4 +1,4 @@
-node('master')
+node('flower')
 {
 
 stage('Checkout code from github')
