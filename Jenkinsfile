@@ -1,10 +1,5 @@
-node('flower')
+node('master')
 {
-
-stage('Print Project name')
-{
- echo 'This is the simple jenkins project'
-}
 
 
 stage('Checkout code from github')
